@@ -15,7 +15,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
-
+        
+        <!-- Mobile favorites button -->
         <button type="button" class="inline-flex items-center justify-center rounded-md pl-4"
           aria-controls="mobile-menu" aria-expanded="false">
           <span class="sr-only">Favorites</span>
@@ -30,6 +31,8 @@
           </svg>
         </button>
       </div>
+
+      <!-- Principal navbar not mobile -->
       <div class="flex flex-1 justify-center lg:justify-start">
         <div class="flex flex-shrink-0 items-center px-8">
           <img class="block h-16 w-auto xl:hidden ml-20" src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
@@ -44,31 +47,27 @@
                 data-dropdown-delay="300" class="hover:underline hover:underline-offset-8 font-bold text-sm px-4 py-3"
                 type="button">MUJER
               </button>
-              <!-- Dropdown menu -->
-
             </div>
+
             <div class="text-sm">
               <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHoverMen" data-dropdown-trigger="hover"
                 data-dropdown-delay="300" class="hover:underline hover:underline-offset-8 font-bold text-sm px-4 py-3"
                 type="button">HOMBRE
               </button>
-              <!-- Dropdown menu -->
-
             </div>
+
             <div class="text-sm">
               <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHoverKids" data-dropdown-trigger="hover"
                 data-dropdown-delay="300" class="hover:underline hover:underline-offset-8 font-bold text-sm px-4 py-3"
                 type="button">NIÑOS
               </button>
-              <!-- Dropdown menu -->
-
             </div>
+
             <div class="text-sm">
               <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHoverSports" data-dropdown-trigger="hover"
                 data-dropdown-delay="300" class="hover:underline hover:underline-offset-8 text-sm px-4 py-3"
                 type="button">DEPORTES
               </button>
-              <!-- Dropdown menu -->
 
             </div>
             <div class="text-sm">
@@ -76,12 +75,13 @@
                 data-dropdown-trigger="hover" data-dropdown-delay="300"
                 class="hover:underline hover:underline-offset-8 text-sm px-4 py-3 truncate" type="button">MUNDO ADIDAS
               </button>
-              <!-- Dropdown menu -->
 
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Mobile search -->
       <button type="button" data-drawer-target="navbarSearch" data-drawer-show="navbarSearch"
         data-drawer-placement="right" aria-controls="navbar-search" aria-expanded="false" class="md:hidden">
         <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
@@ -106,6 +106,8 @@
           class="focus:ring-0 focus:border-gray-300 block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 bg-gray-50"
           placeholder="Buscar">
       </div>
+
+      <!-- User button -->
       <button (click)="hideNotification()" data-modal-target="userModal" data-modal-toggle="userModal" type="button"
         class="p-1 px-3">
         <span class="sr-only">User</span>
@@ -127,6 +129,8 @@
             d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
         </svg>
       </button>
+
+      <!-- Cart button -->
       <button type="button" class="p-1">
         <span class="sr-only">Cart</span>
         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -138,7 +142,7 @@
     </div>
   </div>
 
-  <!-- Mobile menu, show/hide based on menu state. -->
+  <!-- Mobile menu -->
   <div class="hidden" id="mobileMenu">
     <div class="space-y-1 px-2 pt-2 pb-3">
       <button type="button" class="flex items-center w-full p-2 text-xl font-bold transition duration-75">
@@ -208,6 +212,7 @@
     </div>
   </div>
 
+  <!-- Women dropdown -->
   <div id="dropdownHoverWomen" class="w-screen bg-white z-10 hidden border-2 border-t-neutral-100 border-white">
     <div class="grid max-w-screen-xl px-4 py-5 mx-auto grid-cols-5 px-6">
       <ul class="border-2 border-r-neutral-100 border-white">
@@ -496,6 +501,7 @@
     </div>
   </div>
 
+  <!-- Men dropdown -->
   <div id="dropdownHoverMen" class="w-screen bg-white z-10 hidden border-2 border-t-neutral-100 border-white">
     <div class="grid max-w-screen-xl px-4 py-5 mx-auto grid-cols-5 px-6">
       <ul class="border-2 border-r-neutral-100 border-white">
@@ -758,6 +764,8 @@
 
     </div>
   </div>
+
+  <!-- Kids dropdown -->
   <div id="dropdownHoverKids" class="w-screen bg-white z-10 hidden border-2 border-t-neutral-100 border-white">
     <div class="grid max-w-screen-xl px-4 py-5 mx-auto grid-cols-6 px-6">
 
@@ -1037,6 +1045,8 @@
 
     </div>
   </div>
+
+  <!-- Deportes dropdown -->
   <div id="dropdownHoverSports" class="w-screen bg-white z-10 hidden border-2 border-t-neutral-100 border-white">
     <div class="grid max-w-screen-xl px-4 py-5 mx-auto grid-cols-6 px-6">
       <ul>
@@ -1303,6 +1313,8 @@
 
     </div>
   </div>
+
+  <!-- Mundo adidas dropdown -->
   <div id="dropdownHoverAdidasWorld" class="w-screen bg-white z-10 hidden border-2 border-t-neutral-100 border-white">
     <div class="grid max-w-screen-xl px-4 py-5 mx-auto grid-cols-6 px-6">
       <ul>
@@ -1602,6 +1614,7 @@
     </div>
   </div>
 
+  <!-- User modal -->
   <div id="userModal" tabindex="-1" aria-hidden="true"
     class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] md:h-full">
     <div class="relative w-full h-full max-w-2xl md:h-auto">
@@ -1676,6 +1689,7 @@
     </div>
   </div>
 
+  <!-- Mobile search -->
   <div id="navbarSearch"
     class="fixed top-0 right-0 z-40 h-screen overflow-y-auto transition-transform translate-x-full bg-white w-screen"
     tabindex="-1">
