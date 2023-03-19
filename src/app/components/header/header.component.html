@@ -1,9 +1,29 @@
 <nav>
-  <div class="md:px-8">
+
+  <!-- Help section over principal navbar -->
+  <div class="hidden lg:block">
+    <ul class="flex justify-end space-x-4 text-xs px-8">
+      <li class="hover:underline">
+        <a href="#">ayuda</a>
+      </li>
+      <li class="hover:underline">
+        <a href="#">cambios y devoluciones</a>
+      </li>
+      <li class="hover:underline">
+        <a href="#">seguimientos de pedidos</a>
+      </li>
+      <li class="hover:underline">
+        <a href="#">unite al club</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="px-2 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center xl:hidden">
+
         <!-- Mobile menu button-->
-        <button type="button" (click)="toggleMenu()" class="inline-flex items-center justify-center rounded-md pl-4"
+        <button type="button" (click)="toggleMenu()" class="inline-flex items-center justify-center rounded-md"
           aria-controls="mobile-menu" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -15,7 +35,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
-        
+
         <!-- Mobile favorites button -->
         <button type="button" class="inline-flex items-center justify-center rounded-md pl-4"
           aria-controls="mobile-menu" aria-expanded="false">
@@ -35,7 +55,7 @@
       <!-- Principal navbar not mobile -->
       <div class="flex flex-1 justify-center lg:justify-start">
         <div class="flex flex-shrink-0 items-center px-8">
-          <img class="block h-16 w-auto xl:hidden ml-20" src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
+          <img class="block h-16 w-auto xl:hidden ml-16" src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
             alt="adidas logo">
           <img class="hidden h-16 w-auto xl:block" src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
             alt="adidas logo">
