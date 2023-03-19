@@ -1,0 +1,1696 @@
+<nav>
+  <div class="md:px-8">
+    <div class="relative flex h-16 items-center justify-between">
+      <div class="absolute inset-y-0 left-0 flex items-center xl:hidden">
+        <!-- Mobile menu button-->
+        <button type="button" (click)="toggleMenu()" class="inline-flex items-center justify-center rounded-md pl-4"
+          aria-controls="mobile-menu" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <button type="button" class="inline-flex items-center justify-center rounded-md pl-4"
+          aria-controls="mobile-menu" aria-expanded="false">
+          <span class="sr-only">Favorites</span>
+          <svg class="h-6 2-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+          </svg>
+          <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="flex flex-1 justify-center lg:justify-start">
+        <div class="flex flex-shrink-0 items-center px-8">
+          <img class="block h-16 w-auto xl:hidden ml-20" src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
+            alt="adidas logo">
+          <img class="hidden h-16 w-auto xl:block" src="https://cdn-icons-png.flaticon.com/512/731/731962.png"
+            alt="adidas logo">
+        </div>
+        <div class="hidden w-full h-full sm:ml-6 xl:block">
+          <div class="flex justify-center space-x-4">
+            <div class="text-sm inline-block">
+              <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHoverWomen" data-dropdown-trigger="hover"
+                data-dropdown-delay="300" class="hover:underline hover:underline-offset-8 font-bold text-sm px-4 py-3"
+                type="button">MUJER
+              </button>
+              <!-- Dropdown menu -->
+
+            </div>
+            <div class="text-sm">
+              <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHoverMen" data-dropdown-trigger="hover"
+                data-dropdown-delay="300" class="hover:underline hover:underline-offset-8 font-bold text-sm px-4 py-3"
+                type="button">HOMBRE
+              </button>
+              <!-- Dropdown menu -->
+
+            </div>
+            <div class="text-sm">
+              <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHoverKids" data-dropdown-trigger="hover"
+                data-dropdown-delay="300" class="hover:underline hover:underline-offset-8 font-bold text-sm px-4 py-3"
+                type="button">NIÑOS
+              </button>
+              <!-- Dropdown menu -->
+
+            </div>
+            <div class="text-sm">
+              <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHoverSports" data-dropdown-trigger="hover"
+                data-dropdown-delay="300" class="hover:underline hover:underline-offset-8 text-sm px-4 py-3"
+                type="button">DEPORTES
+              </button>
+              <!-- Dropdown menu -->
+
+            </div>
+            <div class="text-sm">
+              <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHoverAdidasWorld"
+                data-dropdown-trigger="hover" data-dropdown-delay="300"
+                class="hover:underline hover:underline-offset-8 text-sm px-4 py-3 truncate" type="button">MUNDO ADIDAS
+              </button>
+              <!-- Dropdown menu -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" data-drawer-target="navbarSearch" data-drawer-show="navbarSearch"
+        data-drawer-placement="right" aria-controls="navbar-search" aria-expanded="false" class="md:hidden">
+        <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <span class="sr-only">Search</span>
+      </button>
+      <div class="relative hidden md:block">
+        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+              clip-rule="evenodd"></path>
+          </svg>
+          <span class="sr-only">Search icon</span>
+        </div>
+        <input type="text"
+          class="focus:ring-0 focus:border-gray-300 block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 bg-gray-50"
+          placeholder="Buscar">
+      </div>
+      <button (click)="hideNotification()" data-modal-target="userModal" data-modal-toggle="userModal" type="button"
+        class="p-1 px-3">
+        <span class="sr-only">User</span>
+        <div id="userNotification"
+          class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold bg-amber-300 border-2 border-white rounded-full top-1">
+          1</div>
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z">
+          </path>
+        </svg>
+      </button>
+      <button type="button" class="p-1 px-3 hidden md:block">
+        <span class="sr-only">Favorites</span>
+        <svg class="h-6 2-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+        </svg>
+      </button>
+      <button type="button" class="p-1">
+        <span class="sr-only">Cart</span>
+        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu, show/hide based on menu state. -->
+  <div class="hidden" id="mobileMenu">
+    <div class="space-y-1 px-2 pt-2 pb-3">
+      <button type="button" class="flex items-center w-full p-2 text-xl font-bold transition duration-75">
+        <span class="flex-1 ml-3 text-left whitespace-nowrap">MUJER</span>
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+
+      <button type="button" class="flex items-center w-full p-2 text-xl font-bold transition duration-75">
+        <span class="flex-1 ml-3 text-left whitespace-nowrap">HOMBRE</span>
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+
+      <button type="button" class="flex items-center w-full p-2 text-xl font-bold transition duration-75">
+        <span class="flex-1 ml-3 text-left whitespace-nowrap">NIÑOS</span>
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+
+      <button type="button" class="flex items-center w-full p-2 text-xl transition duration-75">
+        <span class="flex-1 ml-3 text-left whitespace-nowrap">DEPORTES</span>
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+
+      <button type="button" class="flex items-center w-full p-2 text-xl transition duration-75">
+        <span class="flex-1 ml-3 text-left whitespace-nowrap">MUNDO ADIDAS</span>
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+
+      <hr class="h-px my-8 bg-gray-200 border-0">
+
+      <ul>
+        <li class="p-2 ml-3 text-lg">
+          <a href="#">Mi Cuenta</a>
+        </li>
+        <li class="p-2 ml-3 text-lg">
+          <a href="#">Buscador de Tiendas</a>
+        </li>
+        <li class="p-2 ml-3 text-lg">
+          <a href="#">Ayuda</a>
+        </li>
+        <li class="p-2 ml-3 text-lg">
+          <a href="#">Seguimiento de Pedidos</a>
+        </li>
+        <li class="p-2 ml-3 text-lg">
+          <a href="#">adidas APP</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="dropdownHoverWomen" class="w-screen bg-white z-10 hidden border-2 border-t-neutral-100 border-white">
+    <div class="grid max-w-screen-xl px-4 py-5 mx-auto grid-cols-5 px-6">
+      <ul class="border-2 border-r-neutral-100 border-white">
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            PRODUCTO DESTACADO
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Novedades
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Los Más Vendidos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Exclusivo Miembros
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Solo en adidas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Perzonaliza tu Camiseta
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Próximos Lanzamientos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            Esenciales de Verano ☀️
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block w-4/6 text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/Verano_tcm216-866687.jpg"
+              alt="Verano">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            ¡Argentina Campeón! 🏆
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Precios Justos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="font-bold block text-sm px-3 py-1 hover:underline">
+            Outlet
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            CALZADO
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Novedades
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ver Todas las Zapatillas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Running
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Training
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Outdoor
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Botines
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ojotas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado de Plataforma
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Originals
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            ROPA
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Novedades
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Remeras y Chombas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Camperas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Buzos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Tops Deportivos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Pantalones
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Camisetas de Fútbol
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Shorts
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Vestidos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Polleras
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Conjuntos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Originals
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            ACCESORIOS
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Bolsos y Mochilas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Pelotas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Gorras
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Medias
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            DEPORTES
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Running
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Fútbol
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Training
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Tenis
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Outdoor
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ciclismo
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Yoga
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Padel
+          </a>
+        </li>
+      </ul>
+
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todos los Productos</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todo el Calzado</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Toda la Ropa</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todos los Accesorios</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todos los Deportes</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="dropdownHoverMen" class="w-screen bg-white z-10 hidden border-2 border-t-neutral-100 border-white">
+    <div class="grid max-w-screen-xl px-4 py-5 mx-auto grid-cols-5 px-6">
+      <ul class="border-2 border-r-neutral-100 border-white">
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            PRODUCTO DESTACADO
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Novedades
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Los Más Vendidos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Exclusivo Miembros
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Solo en adidas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Perzonaliza tu Camiseta
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Próximos Lanzamientos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            Esenciales de Verano ☀️
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block w-4/6 text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/Verano_tcm216-866687.jpg"
+              alt="Verano">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            ¡Argentina Campeón! 🏆
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Precios Justos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="font-bold block text-sm px-3 py-1 hover:underline">
+            Outlet
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            CALZADO
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Novedades
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ver Todas las Zapatillas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Running
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Training
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Outdoor
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Botines
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ojotas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Originals
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            ROPA
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Remeras y Chombas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Camperas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Buzos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Pantalones
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Camisetas de Fútbol
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Shorts
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Conjuntos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Originals
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            ACCESORIOS
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Bolsos y Mochilas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Pelotas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Gorras
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Medias
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            DEPORTES
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Running
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Fútbol
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Training
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Tenis
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Outdoor
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Natación
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Yoga
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Padel
+          </a>
+        </li>
+      </ul>
+
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todos los Productos</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todo el Calzado</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Toda la Ropa</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todos los Accesorios</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todos los Deportes</a>
+      </div>
+
+    </div>
+  </div>
+  <div id="dropdownHoverKids" class="w-screen bg-white z-10 hidden border-2 border-t-neutral-100 border-white">
+    <div class="grid max-w-screen-xl px-4 py-5 mx-auto grid-cols-6 px-6">
+
+      <ul class="border-2 border-r-neutral-100 border-white">
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            PRODUCTO DESTACADO
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Solo en adidas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Perzonaliza tu Camiseta
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Próximos Lanzamientos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="font-bold block text-xs p-3 hover:underline">
+            Esenciales de Primavera ☀️
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block w-4/6 text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/Verano_tcm216-866687.jpg"
+              alt="Verano">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            ¡Argentina Campeón! 🏆
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Disney
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Precios Justos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="font-bold block text-sm px-3 py-1 hover:underline">
+            Outlet
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            CALZADO NIÑOS
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Zapatillas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Botines
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Zapatillas para Correr
+          </a>
+        </li>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            ROPA NIÑOS
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Buzos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Buzos y Camperas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Camisetas de Futból
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Pantalones
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Conjuntos
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            CALZADO NIÑAS
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Zapatillas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Botines
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Zapatillas para Correr
+          </a>
+        </li>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            ROPA NIÑAS
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Buzos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Buzos y Camperas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Camisetas de Futból
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Pantalones
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Conjuntos
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            ACCESORIOS
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Pelotas
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Canilleras
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Medias
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            TALLA CALZADO
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado 0 a 4 años
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado 4 a 8 años
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado 8 a 16 años
+          </a>
+        </li>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            TALLA ROPA
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa 0 a 4 años
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa 4 a 8 años
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa 8 a 16 años
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            DEPORTES
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Fútbol
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Training
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Running
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Básquet
+          </a>
+        </li>
+      </ul>
+
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todos los Productos</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todo niños</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Toda niñas</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todos los Accesorios</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Guía de tallas</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todos los Deportes</a>
+      </div>
+
+    </div>
+  </div>
+  <div id="dropdownHoverSports" class="w-screen bg-white z-10 hidden border-2 border-t-neutral-100 border-white">
+    <div class="grid max-w-screen-xl px-4 py-5 mx-auto grid-cols-6 px-6">
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            FÚTBOL
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/Mundial_Guayos_tcm216-834370.png"
+              alt="Fútbol">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Botines
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Accesorios
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 pt-4 hover:underline">
+            Perzonaliza tu Camiseta
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Selección Argentina
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            River Plate
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Boca Juniors
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Predator
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            X
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Copa
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            RUNNING
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/Running_Image_PE_tcm216-834371.png"
+              alt="Running">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Accesorios
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 pt-4 hover:underline">
+            Principiantes (0K-10K)
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Intermedio (10K-21K)
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Avanzado (21K-42K)
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            TRAINING
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/TRAINING_tcm216-834372.jpg"
+              alt="Training">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Accesorios
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 pt-4 hover:underline">
+            Hiit
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Yoga
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Fuerza
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Buscador de Tops Deportivos
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            BÁSQUET
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/basketball_nav_deporte_title_tcm216-834373.jpg"
+              alt="Básquet">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            OUTDOOR
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/Outdoor_Image_PE_tcm216-845946.png"
+              alt="Outdoor">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            OTROS DEPORTES
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Skate
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ciclismo
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Tenis
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Yoga
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Padel
+          </a>
+        </li>
+      </ul>
+
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Productos de Fútbol</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Productos de Running</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Productos de Training</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Productos de Basketball</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Productos de Outdoor</a>
+      </div>
+      <div>
+        <a class="px-3 py-1 font-bold text-sm hover:underline" href="#">Todos los Deportes</a>
+      </div>
+
+    </div>
+  </div>
+  <div id="dropdownHoverAdidasWorld" class="w-screen bg-white z-10 hidden border-2 border-t-neutral-100 border-white">
+    <div class="grid max-w-screen-xl px-4 py-5 mx-auto grid-cols-6 px-6">
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            NUESTRO MUNDO
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/WHATSNEW_tcm216-923887.jpg"
+              alt="Outdoor">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            adiclub
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Novedades
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Más Vendidos
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Fechas de Lanzamiento
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Blog
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            COLABORACIONES
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/BADBUNNY_tcm216-923889.jpg"
+              alt="Bad Bunny">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Bad Bunny
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            IVY PARK
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Lego
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Pharrell
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            adidas x Parley
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ver Todo
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            MODA SOSTENIBLE
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/OURWORLD_tcm216-923888.jpg"
+              alt="Moda Sostenible">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Colección Sostenible
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Accesorios
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Fútbol
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Running
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            ORIGINALS
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/Originals_tcm216-923890.jpg"
+              alt="Originals">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado Originals
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa Originals
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa adicolor
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Superstar
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Stan Smith
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            NMD
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Forum
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            adilette
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            PERFORMANCE
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/Perfomance_CO_tcm216-972047.jpg"
+              alt="Performance">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado Fútbol
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa Fútbol
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Camisetas de Fútbol
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado Running
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa Running
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ultraboost
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            adizero
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Predator
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            X
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="#" class="font-bold block text-sm p-3 hover:underline">
+            SPORTSWEAR
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/esAR/Images/Sportseaera_tcm216-971390.jpg"
+              alt="Sportswear">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Novedades
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Calzado
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa Hombre
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa Mujer
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Ropa Niños
+          </a>
+        </li>
+        <li>
+          <a href="#" class="block text-sm px-3 py-1 hover:underline">
+            Accesorios
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="userModal" tabindex="-1" aria-hidden="true"
+    class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] md:h-full">
+    <div class="relative w-full h-full max-w-2xl md:h-auto">
+      <!-- Modal content -->
+      <div class="relative bg-white">
+        <!-- Modal header -->
+        <div class="flex items-start justify-between p-4 rounded-t">
+          <h3 class="text-xl lg:text-3xl font-bold">
+            DISFRUTÁ DE LOS BENEFICIOS DEL ADICLUB AL INICIAR SESIÓN
+          </h3>
+          <button type="button"
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center"
+            data-modal-hide="userModal">
+            <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <span class="sr-only">Close modal</span>
+          </button>
+        </div>
+        <!-- Modal body -->
+        <div class="p-6 space-y-6">
+          <p>
+            <span>Conseguí </span> <span class="text-sky-600">cupones de descuento</span> <span>, </span> <span
+              class="text-sky-600">productos exclusivos </span> <span>y cuando sos parte adiClub</span>
+          </p>
+        </div>
+        <div>
+          <h4 class="text-lg pt-6 px-6 font-bold">INICIAR SESIÓN</h4>
+        </div>
+        <div>
+          <p class="pt-2 px-6">Vamos a comprobar si ya tenés una cuenta</p>
+        </div>
+        <div class="pt-2 px-6">
+          <input type="text" class="border-2 border-gray-300 text-sm block w-full p-2.5"
+            placeholder="Correo Electrónico *" required>
+        </div>
+        <div class="flex py-4 px-6">
+          <input checked id="checkbox" type="checkbox" class="w-4 h-4 text-black focus:ring-black">
+          <label for="checkbox" class="ml-2 text-sm font-medium">Mantener la sesión abierta. Para todas las opciones que
+            aparecen a continuación.
+            <a href="#" class="underline">Más Información.</a></label>
+        </div>
+        <div class="pt-2 px-6 text-lg">
+          <button type="button"
+            class="text-white w-full bg-black focus:text-gray-500 px-5 py-2.5 text-center inline-flex justify-between">
+            CONTINUAR
+            <svg aria-hidden="true" class="w-6 h-6 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+        <!-- Modal footer -->
+        <div class="grid grid-cols-2 p-6 gap-4">
+          <button type="button" class="px-5 py-2.5 flex justify-center w-full border-2 border-black">
+            <img class="h-6 w-6"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png"
+              alt="Facebook">
+          </button>
+          <button type="button" class="px-5 py-2.5 flex justify-center w-full border-2 border-black">
+            <img class="h-6 w-6"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5q0FP74VV9wbfwP378_7kj7iDomHuKrxkXsxDdUT28V9dlVMNUe-EMzaLwaFhneeuZI&usqp=CAU"
+              alt="Google">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="navbarSearch"
+    class="fixed top-0 right-0 z-40 h-screen overflow-y-auto transition-transform translate-x-full bg-white w-screen"
+    tabindex="-1">
+    <input type="text"
+      class="bg-gray-50 border border-gray-300 text-gray-900 text-xl block w-full py-4 focus:ring-white focus:border-gray-300"
+      placeholder="Buscar">
+    <button type="button" data-drawer-hide="navbarSearch" aria-controls="navbarSearch"
+      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center">
+      <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd"></path>
+      </svg>
+      <span class="sr-only">Close menu</span>
+    </button>
+  </div>
+</nav>
