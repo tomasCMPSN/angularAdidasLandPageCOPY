@@ -3,7 +3,7 @@
   <body>
 
     <!-- Blue section below navbar -->
-    <div style="background-color: #0081c7;" class="text-white p-4 relative">
+    <div id="blueSection" style="background-color: #0081c7;" class="text-white p-4 relative">
       <div class="text-center">
         <p>
           <span>Suscribite a adiClub y obtené 15% de descuento.</span>
@@ -11,7 +11,7 @@
         </p>
       </div>
       <div class="absolute right-1 top-8 sm:top-1/4">
-        <button type="button"
+        <button (click)="hideSection()" type="button"
           class="bg-transparent text-sm p-1.5 ml-auto inline-flex"
           data-modal-hide="userModal">
           <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"

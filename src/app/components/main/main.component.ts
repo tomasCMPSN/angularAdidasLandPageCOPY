@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
 
+  hideSection() {
+    const section = document.getElementById('blueSection')
+    section?.classList.add('hidden')
+  }
+
 }
