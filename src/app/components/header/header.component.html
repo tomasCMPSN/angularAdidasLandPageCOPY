@@ -2,9 +2,9 @@
 
   <!-- Modal button over help section -->
   <div>
-    <button class="flex overflow-y-auto text-white bg-black font-bold text-xs w-screen justify-center h-10 items-center" type="button"
-      data-drawer-target="drawer-top-example" data-drawer-show="drawer-top-example" data-drawer-placement="top"
-      aria-controls="drawer-top-example">
+    <button class="flex overflow-y-auto text-white bg-black font-bold text-xs w-screen justify-center h-10 items-center"
+      type="button" data-drawer-target="drawerTop" data-drawer-show="drawerTop" data-drawer-placement="top"
+      aria-controls="drawer-top">
       <span class="ml-3 text-left">{{ textHeader }}</span>
       <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd"
@@ -1740,5 +1740,37 @@
       </svg>
       <span class="sr-only">Close menu</span>
     </button>
+  </div>
+
+  <!-- Black top button -->
+  <div id="drawerTop" class="fixed top-0 left-0 right-0 z-40 w-full p-4 transition-transform -translate-y-full bg-white"
+    tabindex="-1" aria-labelledby="drawer-top-label">
+    <button type="button" data-drawer-hide="drawerTop" aria-controls="drawer-top"
+      class="bg-transparent hover:bg-gray-200 hover:text-gray-900 text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center">
+      <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd"></path>
+      </svg>
+      <span class="sr-only">Close menu</span>
+    </button>
+    <div class="grid grid-cols-1 gap-x-40 lg:grid-cols-2 px-2 lg:px-8 pt-8">
+      <div>
+        <h3 class="font-bold text-lg">PAGO EN LÍNEA</h3>
+        <p>Podés pagar con tu tarjeta Visa, MasterCard o American Express, ¡Con ellas podrás pagar hasta 3 cuotas sin
+          asumir el interés bancario!</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mt-8 lg:mt-0">APROVECHÁ EL ENVÍO EXPRESS Y RECIBÍ TUS COMPRAS EN 24H.</h3>
+        <p class="mb-4">
+          Aplica para pedidos con pago confirmado hasta las 11:59pm en ciertas localidades de Buenos Aires. *Pedidos con
+          pago confirmado recibidos los viernes, sábados y domingos, serán entregados el siguiente día hábil. **No
+          aplica
+          para productos personalizados
+        </p>
+        <a class="font-bold underline" href="#">POR $1,099 RECIBE TU PEDIDO AL DÍA SIGUENTE HÁBIL.</a>
+      </div>
+    </div>
   </div>
 </nav>
