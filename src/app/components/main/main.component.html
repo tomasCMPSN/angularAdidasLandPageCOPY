@@ -24,7 +24,7 @@
     </div>
 
     <!-- First image for mobile -->
-    <div class="lg:hidden bg-no-repeat bg-cover"
+    <div class="lg:hidden bg-no-repeat bg-cover bg-top"
       style="background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/esAR/Images/always-originals-mh-m_tcm216-1002902.jpg'); height: 576px;">
       <div class="flex flex-col justify-end lg:justify-center h-full pl-4 pb-4 lg:pl-20">
         <h2 class="text-white text-2xl lg:text-5xl font-bold">SIEMPRE ORIGINAL</h2>
@@ -45,7 +45,7 @@
     </div>
 
     <!-- First image for desktop -->
-    <div class="hidden lg:block bg-no-repeat bg-cover"
+    <div class="hidden lg:block bg-no-repeat bg-cover bg-right"
       style="background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/esAR/Images/always-originals-mh-d_tcm216-1002905.jpg'); height: 576px;">
       <div class="flex flex-col justify-end lg:justify-center h-full pl-4 pb-4 lg:pl-20">
         <h2 class="text-white text-2xl lg:text-5xl font-bold">SIEMPRE ORIGINAL</h2>
@@ -66,7 +66,7 @@
     </div>
 
     <!-- Second image for mobile -->
-    <div class="lg:hidden bg-no-repeat bg-cover"
+    <div class="lg:hidden bg-no-repeat bg-cover bg-top"
       style="background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/esAR/Images/afa-refresh-m_tcm216-992061.jpg'); height: 576px;">
       <div class="flex flex-col justify-end lg:justify-center h-full pl-4 pb-4 lg:pl-20 lg:w-4/12">
         <h2 class="text-white text-2xl lg:text-5xl font-bold">CAMPEONES DEL MUNDO ☆☆☆</h2>
@@ -79,7 +79,7 @@
     </div>
 
     <!-- Second image for desktop -->
-    <div class="hidden lg:block bg-no-repeat bg-cover"
+    <div class="hidden lg:block bg-no-repeat bg-cover bg-right"
       style="background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/esAR/Images/afa-refresh-d_tcm216-992062.jpg'); height: 576px;">
       <div class="flex flex-col justify-end lg:justify-center h-full pl-4 pb-4 lg:pl-20 w-4/12">
         <h2 class="text-white text-2xl lg:text-5xl font-bold">CAMPEONES DEL MUNDO ☆☆☆</h2>
@@ -91,11 +91,931 @@
       </div>
     </div>
 
-    <div class="py-4" style="background-color: #d3d7da;">
+    <!-- Mobile menu -->
+    <div class="md:hidden">
+
+      <!-- Woman  -->
+      <div id="accordion-open" data-accordion="open">
+
+        <h2 id="accordion-open-heading-1">
+          <button type="button" class="flex items-center justify-between w-full text-2xl p-5 font-bold text-left"
+            data-accordion-target="#accordion-open-body-1" aria-expanded="false" aria-controls="accordion-open-body-1">
+            <span class="flex items-center text-black">MUJER</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-open-body-1" class="hidden" aria-labelledby="accordion-open-heading-1">
+          <h2 id="accordion-open-heading-2">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-2" aria-expanded="false"
+              aria-controls="accordion-open-body-2">
+              <span class="flex items-center text-black">PRODUCTO DESTACADO</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-2" class="hidden" aria-labelledby="accordion-open-heading-2">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">NOVEDADES</li>
+                <li class="py-3">LOS MÁS VENDIDOS</li>
+                <li class="py-3">EXCLUSIVO MIEMBROS</li>
+                <li class="py-3">SOLO EN ADIDAS</li>
+                <li class="py-3">LANZAMIENTOS DE TENIS</li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-3" aria-expanded="false" aria-controls="accordion-open-body-3">
+            <span class="flex items-center text-black">CALZADO</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-3" class="hidden" aria-labelledby="accordion-open-heading-3">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">VER TODO EL CALZADO</li>
+                <li class="py-3">
+                  <button type="button" class="flex items-center justify-between w-full pr-5 text-left focus:bg-white"
+                    data-accordion-target="#accordion-open-body-4" aria-expanded="false"
+                    aria-controls="accordion-open-body-4">
+                    <span class="flex items-center text-black">RUNNING</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                  <div id="accordion-open-body-4" class="hidden" aria-labelledby="accordion-open-heading-4">
+                    <div class="pl-8">
+                      <ul>
+                        <li class="py-3">TODO EL CALZADO DE RUNNING</li>
+                        <li class="py-3">PRINCIPIANTE (0K-10K)</li>
+                        <li class="py-3">INTERMEDIO (10K-21K)</li>
+                        <li class="py-3">AVANZADO (21K-42K)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-3">BOTINES</li>
+                <li class="py-3">ORIGINALS</li>
+                <li class="py-3">SUPERSTAR</li>
+                <li class="py-3">FORUM</li>
+                <li class="py-3">NMD</li>
+                <li class="py-3">ZX</li>
+                <li class="py-3">CALZADO DE PLATAFORMA</li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-5" aria-expanded="false" aria-controls="accordion-open-body-5">
+            <span class="flex items-center text-black">ROPA</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-5" class="hidden" aria-labelledby="accordion-open-heading-5">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">VER TODA LA ROPA</li>
+                <li class="py-3">REMERAS Y CHOMBAS</li>
+                <li class="py-3">CALZAS</li>
+                <li class="py-3">CAMPERAS</li>
+                <li class="py-3">BUZOS</li>
+                <li class="py-3">PANTALONES</li>
+                <li class="py-3">CAMISETAS DE FÚTBOL</li>
+                <li class="py-3">SHORTS</li>
+                <li class="py-3">POLLERAS</li>
+                <li class="py-3">VESTIDOS</li>
+                <li class="py-3">CONJUNTOS</li>
+                <li class="py-3">ORIGINALS</li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-6" aria-expanded="false" aria-controls="accordion-open-body-6">
+            <span class="flex items-center text-black">ACCESORIOS</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-6" class="hidden" aria-labelledby="accordion-open-heading-6">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">VER TODOS LOS ACCESORIOS</li>
+                <li class="py-3">BOLSOS Y MOCHILAS</li>
+                <li class="py-3">BALONES</li>
+                <li class="py-3">GORRAS</li>
+                <li class="py-3">MEDIAS</li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-7" aria-expanded="false" aria-controls="accordion-open-body-7">
+            <span class="flex items-center text-black">DEPORTES</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-7" class="hidden" aria-labelledby="accordion-open-heading-7">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">RUNNING</li>
+                <li class="py-3">FÚTBOL</li>
+                <li class="py-3">TRAINING</li>
+                <li class="py-3">NATACIÓN</li>
+                <li class="py-3">TENIS</li>
+                <li class="py-3">OUTDOOR</li>
+                <li class="py-3">YOGA</li>
+                <li class="py-3">PADEL</li>
+              </ul>
+            </div>
+          </div>
+          <ul class="pl-5">
+            <li class="py-3">VER TODO MUJER</li>
+            <li class="py-3">DESCUBRE MUJER</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Man -->
+      <div id="accordion-open" data-accordion="open">
+
+        <h2 id="accordion-open-heading-8">
+          <button type="button" class="flex items-center justify-between w-full text-2xl p-5 font-bold text-left"
+            data-accordion-target="#accordion-open-body-8" aria-expanded="false" aria-controls="accordion-open-body-8">
+            <span class="flex items-center text-black">HOMBRE</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-open-body-8" class="hidden" aria-labelledby="accordion-open-heading-8">
+          <h2 id="accordion-open-heading-9">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-9" aria-expanded="false"
+              aria-controls="accordion-open-body-2">
+              <span class="flex items-center text-black">PRODUCTO DESTACADO</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-9" class="hidden" aria-labelledby="accordion-open-heading-9">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">NOVEDADES</li>
+                <li class="py-3">LOS MÁS VENDIDOS</li>
+                <li class="py-3">EXCLUSIVO MIEMBROS</li>
+                <li class="py-3">SOLO EN ADIDAS</li>
+                <li class="py-3">LANZAMIENTOS DE TENIS</li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-10" aria-expanded="false"
+            aria-controls="accordion-open-body-10">
+            <span class="flex items-center text-black">CALZADO</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-10" class="hidden" aria-labelledby="accordion-open-heading-10">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">VER TODO EL CALZADO</li>
+                <li class="py-3">
+                  <button type="button" class="flex items-center justify-between w-full pr-5 text-left focus:bg-white"
+                    data-accordion-target="#accordion-open-body-11" aria-expanded="false"
+                    aria-controls="accordion-open-body-11">
+                    <span class="flex items-center text-black">RUNNING</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                  <div id="accordion-open-body-11" class="hidden" aria-labelledby="accordion-open-heading-11">
+                    <div class="pl-8">
+                      <ul>
+                        <li class="py-3">TODO EL CALZADO DE RUNNING</li>
+                        <li class="py-3">PRINCIPIANTE (0K-10K)</li>
+                        <li class="py-3">INTERMEDIO (10K-21K)</li>
+                        <li class="py-3">AVANZADO (21K-42K)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-3">BOTINES</li>
+                <li class="py-3">ORIGINALS</li>
+                <li class="py-3">SUPERSTAR</li>
+                <li class="py-3">FORUM</li>
+                <li class="py-3">ZX</li>
+                <li class="py-3">NMD</li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-12" aria-expanded="false"
+            aria-controls="accordion-open-body-12">
+            <span class="flex items-center text-black">ROPA</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-12" class="hidden" aria-labelledby="accordion-open-heading-12">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">VER TODA LA ROPA</li>
+                <li class="py-3">REMERAS Y CHOMBAS</li>
+                <li class="py-3">CALZAS</li>
+                <li class="py-3">CAMPERAS</li>
+                <li class="py-3">BUZOS</li>
+                <li class="py-3">PANTALONES</li>
+                <li class="py-3">CAMISETAS DE FÚTBOL</li>
+                <li class="py-3">SHORTS</li>
+                <li class="py-3">CONJUNTOS</li>
+                <li class="py-3">ORIGINALS</li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-13" aria-expanded="false"
+            aria-controls="accordion-open-body-13">
+            <span class="flex items-center text-black">ACCESORIOS</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-13" class="hidden" aria-labelledby="accordion-open-heading-13">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">VER TODOS LOS ACCESORIOS</li>
+                <li class="py-3">BOLSOS Y MOCHILAS</li>
+                <li class="py-3">PELOTAS</li>
+                <li class="py-3">GORRAS</li>
+                <li class="py-3">MEDIAS</li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-14" aria-expanded="false"
+            aria-controls="accordion-open-body-14">
+            <span class="flex items-center text-black">DEPORTES</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-14" class="hidden" aria-labelledby="accordion-open-heading-14">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">RUNNING</li>
+                <li class="py-3">FÚTBOL</li>
+                <li class="py-3">TRAINING</li>
+                <li class="py-3">TENIS</li>
+                <li class="py-3">OUTDOOR</li>
+                <li class="py-3">NATACIÓN</li>
+                <li class="py-3">YOGA</li>
+                <li class="py-3">PADEL</li>
+              </ul>
+            </div>
+          </div>
+          <ul class="pl-5">
+            <li class="py-3">VER TODO HOMBRE</li>
+            <li class="py-3">DESCUBRE HOMBRE</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Niños -->
+      <div id="accordion-open" data-accordion="open">
+
+        <h2 id="accordion-open-heading-15">
+          <button type="button" class="flex items-center justify-between w-full text-2xl p-5 font-bold text-left"
+            data-accordion-target="#accordion-open-body-15" aria-expanded="false"
+            aria-controls="accordion-open-body-15">
+            <span class="flex items-center text-black">NIÑOS</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-open-body-15" class="hidden" aria-labelledby="accordion-open-heading-15">
+          <h2 id="accordion-open-heading-16">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-16" aria-expanded="false"
+              aria-controls="accordion-open-body-2">
+              <span class="flex items-center text-black">NIÑO</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-16" class="hidden" aria-labelledby="accordion-open-heading-16">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">
+                  <button type="button" class="flex items-center justify-between w-full pr-5 text-left focus:bg-white"
+                    data-accordion-target="#accordion-open-body-17" aria-expanded="false"
+                    aria-controls="accordion-open-body-17">
+                    <span class="flex items-center text-black">CALZADO</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                  <div id="accordion-open-body-17" class="hidden" aria-labelledby="accordion-open-heading-17">
+                    <div class="pl-8">
+                      <ul>
+                        <li class="py-3">TODO EL CALZADO</li>
+                        <li class="py-3">ZAPATILLAS PARA CORRER</li>
+                        <li class="py-3">BOTINES</li>
+                        <li class="py-3">ZAPATILLAS</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-3">
+                  <button type="button" class="flex items-center justify-between w-full pr-5 text-left focus:bg-white"
+                    data-accordion-target="#accordion-open-body-18" aria-expanded="false"
+                    aria-controls="accordion-open-body-18">
+                    <span class="flex items-center text-black">ROPA</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                  <div id="accordion-open-body-18" class="hidden" aria-labelledby="accordion-open-heading-18">
+                    <div class="pl-8">
+                      <ul>
+                        <li class="py-3">VER TODA LA ROPA</li>
+                        <li class="py-3">REMERAS Y CHOMBAS</li>
+                        <li class="py-3">BUZOS</li>
+                        <li class="py-3">CAMISETAS DE FÚTBOL</li>
+                        <li class="py-3">CONJUNTOS</li>
+                        <li class="py-3">PANTALONES</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-19">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-19" aria-expanded="false"
+              aria-controls="accordion-open-body-2">
+              <span class="flex items-center text-black">NIÑA</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-19" class="hidden" aria-labelledby="accordion-open-heading-19">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">
+                  <button type="button" class="flex items-center justify-between w-full pr-5 text-left focus:bg-white"
+                    data-accordion-target="#accordion-open-body-20" aria-expanded="false"
+                    aria-controls="accordion-open-body-20">
+                    <span class="flex items-center text-black">CALZADO</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                  <div id="accordion-open-body-20" class="hidden" aria-labelledby="accordion-open-heading-20">
+                    <div class="pl-8">
+                      <ul>
+                        <li class="py-3">TODO EL CALZADO</li>
+                        <li class="py-3">ZAPATILLAS</li>
+                        <li class="py-3">BOTINES</li>
+                        <li class="py-3">ZAPATILLAS PARA CORRER</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-3">
+                  <button type="button" class="flex items-center justify-between w-full pr-5 text-left focus:bg-white"
+                    data-accordion-target="#accordion-open-body-21" aria-expanded="false"
+                    aria-controls="accordion-open-body-21">
+                    <span class="flex items-center text-black">ROPA</span>
+                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </button>
+                  <div id="accordion-open-body-21" class="hidden" aria-labelledby="accordion-open-heading-21">
+                    <div class="pl-8">
+                      <ul>
+                        <li class="py-3">VER TODA LA ROPA</li>
+                        <li class="py-3">REMERAS Y CHOMBAS</li>
+                        <li class="py-3">BUZOS</li>
+                        <li class="py-3">CAMISETAS DE FÚTBOL</li>
+                        <li class="py-3">PANTALONES</li>
+                        <li class="py-3">CONJUNTOS</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-22" aria-expanded="false"
+            aria-controls="accordion-open-body-22">
+            <span class="flex items-center text-black">ACCESORIOS</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-22" class="hidden" aria-labelledby="accordion-open-heading-22">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">VER TODOS LOS ACCESORIOS</li>
+                <li class="py-3">PELOTAS</li>
+                <li class="py-3">GUANTES</li>
+                <li class="py-3">CANILLERAS</li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-23" aria-expanded="false"
+            aria-controls="accordion-open-body-23">
+            <span class="flex items-center text-black">TALLAS</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-23" class="hidden" aria-labelledby="accordion-open-heading-23">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">CALZADO 0 A 4 AÑOS</li>
+                <li class="py-3">CALZADO 4 A 8 AÑOS</li>
+                <li class="py-3">CALZADO 8 A 16 AÑOS</li>
+                <li class="py-3">ROPA 0 A 4 AÑOS</li>
+                <li class="py-3">ROPA 4 A 8 AÑOS</li>
+                <li class="py-3">ROPA 8 A 16 AÑOS</li>
+              </ul>
+            </div>
+          </div>
+          <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+            data-accordion-target="#accordion-open-body-24" aria-expanded="false"
+            aria-controls="accordion-open-body-24">
+            <span class="flex items-center text-black">DEPORTES</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div id="accordion-open-body-24" class="hidden" aria-labelledby="accordion-open-heading-24">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">BÁSQUET</li>
+                <li class="py-3">FÚTBOL</li>
+                <li class="py-3">TRAINING</li>
+                <li class="py-3">RUNNING</li>
+              </ul>
+            </div>
+          </div>
+          <ul class="pl-5">
+            <li class="py-3">VER TODO NIÑOS</li>
+            <li class="py-3">DESCUBRE NIÑOS</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Sports -->
+      <div id="accordion-open" data-accordion="open">
+
+        <h2 id="accordion-open-heading-25">
+          <button type="button" class="flex items-center justify-between w-full text-2xl p-5 text-left"
+            data-accordion-target="#accordion-open-body-25" aria-expanded="false"
+            aria-controls="accordion-open-body-25">
+            <span class="flex items-center text-black">DEPORTES</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-open-body-25" class="hidden" aria-labelledby="accordion-open-heading-25">
+          <h2 id="accordion-open-heading-26">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-26" aria-expanded="false"
+              aria-controls="accordion-open-body-26">
+              <span class="flex items-center text-black">FÚTBOL</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-26" class="hidden" aria-labelledby="accordion-open-heading-26">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">BOTINES</li>
+                <li class="py-3">ROPA</li>
+                <li class="py-3">ACCESORIOS</li>
+                <li class="py-3">SELECCIÓN ARGENTINA</li>
+                <li class="py-3">BOCA JUNIORS</li>
+                <li class="py-3">RIVER PLATE</li>
+                <li class="py-3">PREDATOR</li>
+                <li class="py-3">X</li>
+                <li class="py-3">COPA</li>
+                <li class="py-3">DESCUBRE FÚTBOL</li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-27">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-27" aria-expanded="false"
+              aria-controls="accordion-open-body-27">
+              <span class="flex items-center text-black">RUNNING</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-27" class="hidden" aria-labelledby="accordion-open-heading-27">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">CALZADO</li>
+                <li class="py-3">ROPA</li>
+                <li class="py-3">ACCESORIOS</li>
+                <li class="py-3">PRINCIPIANTES (0K-10K)</li>
+                <li class="py-3">INTERMEDIO (10K-21K)</li>
+                <li class="py-3">AVANZADO (21K-42K)</li>
+                <li class="py-3">ENCUENTRA TU CALZADO IDEAL</li>
+                <li class="py-3">DESCUBRE RUNNING</li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-28">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-28" aria-expanded="false"
+              aria-controls="accordion-open-body-28">
+              <span class="flex items-center text-black">TRAINING</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-28" class="hidden" aria-labelledby="accordion-open-heading-28">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">CALZADO</li>
+                <li class="py-3">ROPA</li>
+                <li class="py-3">ACCESORIOS</li>
+                <li class="py-3">HIIT</li>
+                <li class="py-3">YOGA</li>
+                <li class="py-3">FUERZA</li>
+                <li class="py-3">BUSCADOR DE TOPS DEPORTIVOS</li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-29">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-29" aria-expanded="false"
+              aria-controls="accordion-open-body-29">
+              <span class="flex items-center text-black">BÁSQUET</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-29" class="hidden" aria-labelledby="accordion-open-heading-29">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">CALZADO</li>
+                <li class="py-3">ROPA</li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-30">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-30" aria-expanded="false"
+              aria-controls="accordion-open-body-30">
+              <span class="flex items-center text-black">OUTDOOR</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-30" class="hidden" aria-labelledby="accordion-open-heading-30">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">CALZADO</li>
+                <li class="py-3">ROPA</li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-31">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-31" aria-expanded="false"
+              aria-controls="accordion-open-body-31">
+              <span class="flex items-center text-black">OTROS DEPORTES</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-31" class="hidden" aria-labelledby="accordion-open-heading-31">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">SKATE</li>
+                <li class="py-3">CICLISMO</li>
+                <li class="py-3">TENIS</li>
+                <li class="py-3">YOGA</li>
+                <li class="py-3">PADEL</li>
+                <li class="py-3">NATACIÓN</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Mundo adidas -->
+      <div id="accordion-open" data-accordion="open">
+
+        <h2 id="accordion-open-heading-32">
+          <button type="button" class="flex items-center justify-between w-full text-2xl p-5 text-left"
+            data-accordion-target="#accordion-open-body-32" aria-expanded="false"
+            aria-controls="accordion-open-body-32">
+            <span class="flex items-center text-black">MUNDO ADIDAS</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-open-body-32" class="hidden" aria-labelledby="accordion-open-heading-32">
+          <h2 id="accordion-open-heading-33">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-33" aria-expanded="false"
+              aria-controls="accordion-open-body-33">
+              <span class="flex items-center text-black">NOVEDADES</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-33" class="hidden" aria-labelledby="accordion-open-heading-33">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">ADICLUB</li>
+                <li class="py-3">NOVEDADES</li>
+                <li class="py-3">MÁS VENDIDOS</li>
+                <li class="py-3">FECHAS DE LANZAMIENTOS</li>
+                <li class="py-3">BLOG</li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-34">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-34" aria-expanded="false"
+              aria-controls="accordion-open-body-34">
+              <span class="flex items-center text-black">COLABORACIONES</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-34" class="hidden" aria-labelledby="accordion-open-heading-34">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">VER TODO</li>
+                <li class="py-3">BAD BUNNY</li>
+                <li class="py-3">IVY PARK</li>
+                <li class="py-3">LEGO</li>
+                <li class="py-3">PHARRELL</li>
+                <li class="py-3">ADIDAS X PARLEY</li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-35">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-35" aria-expanded="false"
+              aria-controls="accordion-open-body-35">
+              <span class="flex items-center text-black">NUESTRO MUNDO</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-35" class="hidden" aria-labelledby="accordion-open-heading-35">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">RUN FOR THE OCEANS</li>
+                <li class="py-3">COLECCIÓN SOSTENIBLE</li>
+                <li class="py-3">CALZADO</li>
+                <li class="py-3">ROPA</li>
+                <li class="py-3">ACCESORIOS</li>
+                <li class="py-3">FÚTBOL</li>
+                <li class="py-3">RUNNING</li>
+                <li class="py-3">COLECCIÓN VEGANA</li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-36">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-36" aria-expanded="false"
+              aria-controls="accordion-open-body-36">
+              <span class="flex items-center text-black">ORIGINALS</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-36" class="hidden" aria-labelledby="accordion-open-heading-36">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">CALZADO ORIGINALS</li>
+                <li class="py-3">ROPA ORIGINALS</li>
+                <li class="py-3">ROPA ADICOLOR</li>
+                <li class="py-3">ACCESORIOS</li>
+                <li class="py-3">FORUM</li>
+                <li class="py-3">SUPERSTAR</li>
+                <li class="py-3">STAN SMITH</li>
+                <li class="py-3">NMD</li>
+                <li class="py-3">ZX</li>
+                <li class="py-3">ADILETTE</li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-37">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-37" aria-expanded="false"
+              aria-controls="accordion-open-body-37">
+              <span class="flex items-center text-black">PERFORMANCE</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-37" class="hidden" aria-labelledby="accordion-open-heading-37">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">CALZADO FÚTBOL</li>
+                <li class="py-3">ROPA FÚTBOL</li>
+                <li class="py-3">CAMISETAS DE FÚTBOL</li>
+                <li class="py-3">ROPA RUNNING</li>
+                <li class="py-3">CALZADO RUNNING</li>
+                <li class="py-3">ULTRA BOOST</li>
+                <li class="py-3">ADIZERO</li>
+                <li class="py-3">PREDATOR</li>
+                <li class="py-3">X</li>
+              </ul>
+            </div>
+          </div>
+          <h2 id="accordion-open-heading-38">
+            <button type="button" class="flex items-center justify-between w-full px-5 py-2 font-medium text-left"
+              data-accordion-target="#accordion-open-body-38" aria-expanded="false"
+              aria-controls="accordion-open-body-38">
+              <span class="flex items-center text-black">SPORTSWEAR</span>
+              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h2>
+          <div id="accordion-open-body-38" class="hidden" aria-labelledby="accordion-open-heading-38">
+            <div class="pl-8">
+              <ul>
+                <li class="py-3">NOVEDADES</li>
+                <li class="py-3">CALZADO</li>
+                <li class="py-3">ROPA</li>
+                <li class="py-3">ROPA HOMBRE</li>
+                <li class="py-3">ROPA MUJER</li>
+                <li class="py-3">ROPA NIÑOS</li>
+                <li class="py-3">ACCESORIOS</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Teams section -->
+    <div class="py-4 mt-3" style="background-color: #d3d7da;">
+
       <div class="text-center pb-2">
         <p>ENCONTRÁ A TU EQUIPO</p>
       </div>
-      <div class="flex overflow-x-auto flex-nowrap md:justify-center mx-4 gap-10">
+      <div class="flex overflow-x-auto flex-nowrap md:justify-center ml-4 gap-10">
         <img class="h-12 w-auto flex w-max"
           src="https://www.afa.com.ar/upload/torneo/Placas%20categor%C3%ADas/afa3estrellas.png" alt="AFA">
         <img class="h-12 w-auto flex w-max"
@@ -116,12 +1036,11 @@
         <img class="h-12 w-auto flex w-max"
           src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/800px-Manchester_United_FC_crest.svg.png"
           alt="Manchester United">
-        <img class="h-12 w-auto flex w-max"
+        <img class="h-12 w-auto flex w-max mr-4"
           src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png"
           alt="Arsenal">
-
-
       </div>
+
     </div>
 
   </body>
