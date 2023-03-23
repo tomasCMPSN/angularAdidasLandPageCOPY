@@ -1015,8 +1015,8 @@
       <div class="text-center pb-2">
         <p>ENCONTRÁ A TU EQUIPO</p>
       </div>
-      <div class="flex overflow-x-auto flex-nowrap md:justify-center ml-4 gap-10">
-        <img class="h-12 w-auto flex w-max"
+      <div class="flex overflow-x-auto flex-nowrap md:justify-center gap-10">
+        <img class="h-12 w-auto flex w-max ml-5"
           src="https://www.afa.com.ar/upload/torneo/Placas%20categor%C3%ADas/afa3estrellas.png" alt="AFA">
         <img class="h-12 w-auto flex w-max"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Escudo_del_C_A_River_Plate.svg/1200px-Escudo_del_C_A_River_Plate.svg.png"
@@ -1041,6 +1041,17 @@
           alt="Arsenal">
       </div>
 
+    </div>
+
+    <!-- Selector menu -->
+    <div class="md:pl-16 text-xl py-6 lg:text-2xl font-bold">
+      <div class="flex overflow-x-auto flex-nowrap gap-16">
+        <button class="pl-5" (click)="selector1()"
+          [ngClass]="selector === 1 ? 'underline' : 'no-underline'">NOVEDADES</button>
+        <button (click)="selector2()" [ngClass]="selector === 2 ? 'underline' : 'no-underline'">COLECCIONES</button>
+        <button class="whitespace-nowrap mr-4" (click)="selector3()"
+          [ngClass]="selector === 3 ? 'underline' : 'no-underline'">EXCLUSIVO MIEMBROS ADICLUB</button>
+      </div>
     </div>
 
   </body>
