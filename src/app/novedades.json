@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "RUNFALCON 3.0 W",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/0c49e2e2b1774c1c820faf540092425a_9366/RUNFALCON_3.0_W_Negro_HP7556_01_standard.jpg",
+    "price": 26.999,
+    "category": "Mujer Running",
+    "extra": "envío gratis"
+  },
+  {
+    "id": 2,
+    "name": "Buzo con Capucha y Cierre Frontal Boca Juniors 3 Tiras",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/c1fec3ee5efa4ad8b7f7ae7500e51b58_9366/Buzo_con_Capucha_y_Cierre_Frontal_Boca_Juniors_3_Tiras_Azul_HC0984_21_model.jpg",
+    "price": 24.999,
+    "category": "Hombre Fútbol",
+    "extra": "envío gratis"
+  },
+  {
+    "id": 3,
+    "name": "Zapatillas Forum Low",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/5bcbd5c4342f4714892eaf1f010ddde9_9366/Zapatillas_Forum_Low_Beige_HQ4426_01_standard.jpg",
+    "price": 47.999,
+    "category": "Mujer Originals",
+    "extra": "envío gratis"
+  },
+  {
+    "id": 4,
+    "name": "Zapatillas Forum Low",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b743345901d446e6b956ae6f0125d81f_9366/Zapatillas_Forum_Low_Blanco_GW7107_01_standard.jpg",
+    "price": 47.999,
+    "category": "Mujer Originals",
+    "extra": "envío gratis"
+  },
+  {
+    "id": 5,
+    "name": "Pantalón Always Original Pierna Ancha con Cordones",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/6fccd60b5d2f4c2cac39aeaf00eb4b18_9366/Pantalon_Always_Original_Pierna_Ancha_con_Cordones_Negro_HK5085_21_model.jpg",
+    "price": 44.999,
+    "category": "Mujer Originals",
+    "extra": "envío gratis"
+  },
+  {
+    "id": 6,
+    "name": "Zapatillas Astir",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d3ddc4dd7e934b7e8b74ae8c0125a4bb_9366/Zapatillas_Astir_Blanco_GY9549_01_standard.jpg",
+    "price": 41.999,
+    "category": "Mujer Originals",
+    "extra": "envío gratis"
+  },
+  {
+    "id": 7,
+    "name": "Zapatillas Runfalcon 3",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/17d21769f92f4f009da3af3800df9320_9366/Zapatillas_Runfalcon_3_Negro_HP7544_01_standard.jpg",
+    "price": 26.999,
+    "category": "Hombre Running",
+    "extra": "envío gratis"
+  },
+  {
+    "id": 8,
+    "name": "RUNFALCON 3.0 W",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/eed497208ed64dc18a9baf540092a101_9366/RUNFALCON_3.0_W_Negro_HP7558_01_standard.jpg",
+    "price": 26.999,
+    "category": "Mujer Running",
+    "extra": "nuevo"
+  },
+  {
+    "id": 9,
+    "name": "Remera de Entrenamiento Condivo River Plate 22",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/abb62a2f56cc481fb431afb601824cb8_9366/Remera_de_Entrenamiento_Condivo_River_Plate_22_Beige_HC1058_01_laydown.jpg",
+    "price": 14.999,
+    "category": "Hombre Fútbol",
+    "extra": "nuevo"
+  },
+  {
+    "id": 10,
+    "name": "Pantalón Always Original Pierna Ancha con Cordones",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/d21a7a3ba68744f7af04ae920026aa2d_9366/Pantalon_Always_Original_Pierna_Ancha_con_Cordones_Verde_HK5086_21_model.jpg",
+    "price": 44.999,
+    "category": "Mujer Originals",
+    "extra": "envío gratis"
+  },
+  {
+    "id": 11,
+    "name": "Buzo con Capucha Essentials Colorblock",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/bdef5d11181649f28ee3af1f00f6cb68_9366/Buzo_con_Capucha_Essentials_Colorblock_Azul_HY5932_21_model.jpg",
+    "price": 44.999,
+    "category": "Hombre Sportswear",
+    "extra": "envío gratis"
+  },
+  {
+    "id": 12,
+    "name": "Pantalón de Entrenamiento Condivo 22 River Plate",
+    "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9f175e5dfad943319488aea9009ab0a7_9366/Pantalon_de_Entrenamiento_Condivo_22_River_Plate_Verde_HC1055_21_model.jpg",
+    "price": 21.999,
+    "category": "Hombre Fútbol",
+    "extra": "envío gratis"
+  }
+]
