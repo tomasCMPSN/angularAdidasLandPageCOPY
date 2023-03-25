@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Zapatillas Forum Low CL",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/1c3e02831d784aa3878bae8c0094e692_9366/Zapatillas_Forum_Low_CL_Blanco_HQ6875_01_standard.jpg",
-      "price": 52.999,
+      "price": "52.999",
       "category": "Hombre Originals",
       "extra": "solo en adidas"
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Camiseta 3/4 Icon Argentina",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/56d640c88a8d4cab99eaaec4010c24f7_9366/Camiseta_3-4_Icon_Argentina_Azul_HG4239_21_model.jpg",
-      "price": 28.999,
+      "price": "28.999",
       "category": "Hombre Fútbol",
       "extra": "Solo para miembros"
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "name": "Zapatillas Adizero Boston 11",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/7c204e5ee7f74e24a128ae6a010cecd5_9366/Zapatillas_Adizero_Boston_11_Gris_GV7068_01_standard.jpg",
-      "price": 57.999,
+      "price": "57.999",
       "category": "Hombre Running",
       "extra": "Solo para miembros"
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "name": "Camiseta Argentina Tiro 23 Pro",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/8fa1efc5967c442db81baec201048c3f_9366/Camiseta_Argentina_Tiro_23_Pro_Azul_HF3938_01_laydown.jpg",
-      "price": 28.999,
+      "price": "28.999",
       "category": "Hombre Fútbol",
       "extra": "Solo para miembros"
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "name": "Camiseta de Arquero Argentina",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b36f75a3982e46c6a898aec90084c547_9366/Camiseta_de_Arquero_Argentina_Icon_Azul_HF3957_21_model.jpg",
-      "price": 34.999,
+      "price": "34.999",
       "category": "Hombre Fútbol",
       "extra": "Solo para miembros"
     },
@@ -51,7 +51,7 @@
       "id": 7,
       "name": "Ojotas Adilette 22",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b3ac7022cf724007ac13ae92012a129a_9366/Ojotas_Adilette_22_Gris_GX6949_01_standard.jpg",
-      "price": 26.999,
+      "price": "26.999",
       "category": "Hombre Originals",
       "extra": "Solo para miembros"
     },
@@ -59,7 +59,7 @@
       "id": 8,
       "name": "Buzo Icon Alemania Cuello Redondo",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/a1188b0eb9f24f16954eaed6011e69ae_9366/Buzo_Icon_Alemania_Cuello_Redondo_Negro_HF4064_21_model.jpg",
-      "price": 23.999,
+      "price": "23.999",
       "category": "Hombre Fútbol",
       "extra": "Solo para miembros"
     },
@@ -67,7 +67,7 @@
       "id": 9,
       "name": "ZAPATILLAS ULTRABOOST 22",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/83cfaea17363479fbc1aae9400e68bcf_9366/ZAPATILLAS_ULTRABOOST_22_Beige_GX6666_01_standard.jpg",
-      "price": 57.999,
+      "price": "57.999",
       "category": "Mujer Running",
       "extra": "Solo para miembros"
     },
@@ -75,7 +75,7 @@
       "id": 10,
       "name": "Pantalón Pantera Negra Estampado",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/77b10491e44d4652ba4dae7900147927_9366/Pantalon_Pantera_Negra_Estampado_Negro_HP1356_21_model.jpg",
-      "price": 25.999,
+      "price": "25.999",
       "category": "Sportswear",
       "extra": "Solo para miembros"
     },
@@ -83,7 +83,7 @@
       "id": 11,
       "name": "Calzas Cortas Hyperglam Techfit Cebra",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/7933e878201b4d7e95ebae9e00d1674a_9366/Calzas_Cortas_Hyperglam_Techfit_Cebra_Rojo_IB3611_22_model.jpg",
-      "price": 15.999,
+      "price": "15.999",
       "category": "Mujer Training",
       "extra": "Solo para miembros"
     },
@@ -91,7 +91,7 @@
       "id": 12,
       "name": "Calzas 7/8 Hyperglam Techfit Cebra",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4378813de1314b1c9a90ae9e00d12430_9366/Calzas_7-8_Hyperglam_Techfit_Cebra_Rojo_IB3607_21_model.jpg",
-      "price": 22.999,
+      "price": "22.999",
       "category": "Mujer Training",
       "extra": "Solo para miembros"
     }

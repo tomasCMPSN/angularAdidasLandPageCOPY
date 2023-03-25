@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Zapatillas Forum Low",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3d92ba80e65b47979462ac31012ba09d_9366/Zapatillas_Forum_Low_Blanco_FY7755_01_standard.jpg",
-      "price": 52.999,
+      "price": "52.999",
       "category": "Originals",
       "extra": "envío gratis"
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "name": "ZAPATILLAS ULTRABOOST 22",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/123717a32016417f9044ada9001b57e2_9366/ZAPATILLAS_ULTRABOOST_22_Negro_GX5591_01_standard.jpg",
-      "price": 57.999,
+      "price": "57.999",
       "category": "Mujer Running",
       "extra": "precios justos"
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "name": "Zapatillas Ultraboost 22",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4b593057a18c47d2844dad9000ecd808_9366/Zapatillas_Ultraboost_22_Negro_GX3062_01_standard.jpg",
-      "price": 57.999,
+      "price": "57.999",
       "category": "Hombre Running",
       "extra": "precios justos"
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "name": "Campera SST Primeblue",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/46e7a2dbd1f2453c8360ab8f00f60a78_9366/Campera_SST_Primeblue_Negro_GD2374_21_model.jpg",
-      "price": 28.999,
+      "price": "28.999",
       "category": "Mujer Originals",
       "extra": "envío gratis"
     },
@@ -43,7 +43,7 @@
       "id": 6,
       "name": "Remera Badge of Sport Basic",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/ed6125f4de98446dac51aa07005cdcf4_9366/Remera_Badge_of_Sport_Basic_Negro_ED9605_01_laydown.jpg",
-      "price": 9.999,
+      "price": "9.999",
       "category": "Hombre Sportswear",
       "extra": ""
     },
@@ -51,7 +51,7 @@
       "id": 7,
       "name": "Rompevientos Adicolor Essentials Trifolio",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/7828072c0f924e38be79ad1a00b04e7f_9366/Rompevientos_Adicolor_Essentials_Trifolio_Negro_H34687_21_model.jpg",
-      "price": 28.999,
+      "price": "28.999",
       "category": "Hombre Originals",
       "extra": "envío gratis"
     },
@@ -59,7 +59,7 @@
       "id": 8,
       "name": "Remera Badge of Sport Basic",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/1e9e946dee4f45a7888aadcf014fef3b_9366/Remera_Badge_of_Sport_Basic_Gris_HH9020_21_model.jpg",
-      "price": 9.999,
+      "price": "9.999",
       "category": "Hombre Sportswear",
       "extra": ""
     },
@@ -67,7 +67,7 @@
       "id": 9,
       "name": "Zapatillas Stan Smith Disney Monsters, Inc.",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/23ac00bde10341db8733ad5100fdc5c2_9366/Zapatillas_Stan_Smith_Disney_Monsters_Inc._Blanco_GZ5990_01_standard.jpg",
-      "price": 39.999,
+      "price": "39.999",
       "category": "Hombre Originals",
       "extra": "precios justos"
     },
@@ -75,7 +75,7 @@
       "id": 10,
       "name": "Campera Deportiva Satén",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/38073a9db97d40feb3c0ae350114c697_9366/Campera_Deportiva_Saten_Verde_HF2112_21_model.jpg",
-      "price": 35.999,
+      "price": "35.999",
       "category": "Mujer Originals",
       "extra": "envío gratis"
     },
@@ -83,7 +83,7 @@
       "id": 11,
       "name": "Calzas Cortas Adicolor Classics Primeblue Tiro Alto",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/6303d3e759be48b9a2d1ac8401309743_9366/Calzas_Cortas_Adicolor_Classics_Primeblue_Tiro_Alto_Negro_GN2842_01_laydown.jpg",
-      "price": 13.999,
+      "price": "13.999",
       "category": "Mujer Originals",
       "extra": "materiales reciclados"
     },
@@ -91,7 +91,7 @@
       "id": 12,
       "name": "Remera Badge of Sport Basic",
       "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/405ebbe440b743d997a0aa0700810e66_9366/Remera_Badge_of_Sport_Basic_Azul_ED9610_01_laydown.jpg",
-      "price": 9.999,
+      "price": "9.999",
       "category": "Hombre Sportswear",
       "extra": ""
     }

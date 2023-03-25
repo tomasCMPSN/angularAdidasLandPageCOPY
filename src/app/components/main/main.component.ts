@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import novedadesData from '../../novedades.json'
+import coleccionesData from '../../colecciones.json'
+import adiclubData from '../../adiclub.json'
 
-interface Novedad {
-  id: Number,
+interface Product {
+  id:  Number,
   name: String;
   image: String;
-  price: Number;
+  price: String;
   category: String;
   extra: String;
 }
@@ -17,7 +19,9 @@ interface Novedad {
 })
 export class MainComponent {
 
-  novedades: Novedad[] = novedadesData
+  novedades: Product[] = novedadesData
+  colecciones: Product[] = coleccionesData
+  adiclub: Product[] = adiclubData
 
   selector = 1
 
