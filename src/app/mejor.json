@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "name": "Camiseta titular Argentina 3 estrellas 2022",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/02f90f6570a148c1a136af7300dc1ac4_9366/IB3593_21_model.jpg",
+      "price": "24.999",
+      "category": "Performance",
+      "extra": "envío gratis"
+    },
+    {
+      "id": 2,
+      "name": "Zapatillas Adizero Boston 11",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/959e759355c4479ab155ae6f0140a337_9366/GX6651_01_standard.jpg",
+      "price": "49.999",
+      "category": "Performance",
+      "extra": "envío gratis"
+    },
+    {
+      "id": 3,
+      "name": "Zapatillas Forum Low",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/5bcbd5c4342f4714892eaf1f010ddde9_9366/Zapatillas_Forum_Low_Beige_HQ4426_01_standard.jpg",
+      "price": "47.999",
+      "category": "Originals",
+      "extra": "envío gratis"
+    },
+    {
+      "id": 4,
+      "name": "Camiseta titular oficial Boca Juniors 22/23",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/bfe57f2c696b4724a58baeec01689b53_9366/HE6329_01_laydown.jpg",
+      "price": "34.999",
+      "category": "Performance",
+      "extra": "envío gratis"
+    },
+    {
+      "id": 5,
+      "name": "Zapatillas Galaxy 6",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/1ccc8d7ff49c4c64a8fbaf7000dc3ba5_9366/HP2423_01_standard.jpg",
+      "price": "23.999",
+      "category": "Performance",
+      "extra": "envío gratis"
+    },
+    {
+      "id": 6,
+      "name": "Conjunto Deportivo Boca Juniors",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/59071b59411e4c7bb3d7af0800fe0660_9366/HC0991_01_laydown.jpg",
+      "price": "35.999",
+      "category": "Performance",
+      "extra": "envío gratis"
+    },
+    {
+      "id": 7,
+      "name": "Zapatillas Run 70s Lifestyle",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/d99787ef6ba34c9db7e5af450181aada_9366/GZ9512_01_standard.jpg",
+      "price": "26.999",
+      "category": "Sportswear",
+      "extra": "envío gratis"
+    },
+    {
+      "id": 8,
+      "name": "Conjunto Tiro Argentina 23",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/570a34d476f54f7383fbaeb6010fa5b5_9366/HF3913_21_model.jpg",
+      "price": "35.999",
+      "category": "Performance",
+      "extra": "nuevo"
+    },
+    {
+      "id": 9,
+      "name": "Zapatillas Response Super 3.0",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/c142072a75bb4a7fa357ae9b0104b4ec_9366/GW1371_01_standard.jpg",
+      "price": "37.999",
+      "category": "Performance",
+      "extra": "nuevo"
+    },
+    {
+      "id": 10,
+      "name": "Zapatillas Advantage",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/88331a67fe254b098098acc201155c95_9366/GZ5299_01_standard.jpg",
+      "price": "22.999",
+      "category": "Sportswear",
+      "extra": "envío gratis"
+    },
+    {
+      "id": 11,
+      "name": "Remera Argentina Campéon 2022",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/77dea8cfd9ee4d88832caf6b00f9d710_9366/IR0032_21_model.jpg",
+      "price": "18.999",
+      "category": "Performance",
+      "extra": "envío gratis"
+    },
+    {
+      "id": 12,
+      "name": "Conjunto 3 Tiras Tricot Basic",
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/dd05e00325ab401fa5eeaf030098b006_9366/IC6747_21_model.jpg",
+      "price": "20.999",
+      "category": "Sportswear",
+      "extra": "envío gratis"
+    }
+  ]
+  
