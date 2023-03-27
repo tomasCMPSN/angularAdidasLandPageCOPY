@@ -5,7 +5,7 @@ import adiclubData from '../../adiclub.json'
 import mejorData from '../../mejor.json'
 
 interface Product {
-  id:  Number,
+  id: Number,
   name: String;
   image: String;
   price: String;
@@ -43,5 +43,8 @@ export class MainComponent {
     this.selector = 3
   }
 
-
+  goToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 }
