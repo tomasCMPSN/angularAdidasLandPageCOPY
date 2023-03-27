@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import novedadesData from '../../novedades.json'
 import coleccionesData from '../../colecciones.json'
 import adiclubData from '../../adiclub.json'
+import mejorData from '../../mejor.json'
 
 interface Product {
   id:  Number,
@@ -22,6 +23,7 @@ export class MainComponent {
   novedades: Product[] = novedadesData
   colecciones: Product[] = coleccionesData
   adiclub: Product[] = adiclubData
+  mejor: Product[] = mejorData
 
   selector = 1
 
